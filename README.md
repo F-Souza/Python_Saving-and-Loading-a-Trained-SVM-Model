@@ -70,8 +70,8 @@ https://github.com/F-Souza/Python_Image-Classifier-with-SVM
 
       import pickle
       
-- Para salvar o SVM treinado, passamos a variavel responssavel pelo classificado do nosso código, logo, passamos a variavel
-"classifier", logo depois passamos o nome do arquivo que vai ser salvo _ 'SVM_Trained_Model' _ na extensão '.sav'.
+- Para salvar o SVM treinado, passamos a variavel responsavel pelo classificador do nosso código, portanto, passamos a variavel
+"classifier", logo depois passamos o nome do arquivo que vai ser salvo 'SVM_Trained_Model' na extensão '.sav'.
       
       pickle.dump(classifier, open('SVM_Trained_Model.sav', 'wb'))
 
@@ -79,7 +79,7 @@ https://github.com/F-Souza/Python_Image-Classifier-with-SVM
 Basta passar o arquivo '.sav' para a pasta do projeto no qual você deseja usalo.
 
 - Agora, como carregar e usar o 'SVM_Trained_Model.sav'.
-- Carregando as imagens da mesma forma que do projeto "Python_Image-Classifier-with-SVM":
+- Carregando as imagens a serem testadas da mesma forma que do projeto "Python_Image-Classifier-with-SVM":
 
       imgs = []
       
