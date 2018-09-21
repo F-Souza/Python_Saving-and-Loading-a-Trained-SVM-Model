@@ -1,4 +1,4 @@
-# Python_Saving-a-Trained-SVM-Model
+# Python_Saving-and-Loading-a-Trained-SVM-Model
 
 _O Exemplo tem base em um outro repositorio (Python_Image-Classifier-with-SVM) onde mostro um classificador de imagens usando SVM.
 
