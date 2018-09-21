@@ -1,12 +1,25 @@
 # Python_Saving-a-Trained-SVM-Model
 
-O Exemplo tem base em um outro repositorio (Python_Image-Classifier-with-SVM) onde mostro um classificador de imagens usando SVM.
-O código para salvar o modelo se encontra no final deste Readme.
+_O Exemplo tem base em um outro repositorio (Python_Image-Classifier-with-SVM) onde mostro um classificador de imagens usando SVM.
 
-Repositorio do Projeto "Python_Image-Classifier-with-SVM":
+_Repositorio do Projeto "Python_Image-Classifier-with-SVM":
 
 https://github.com/F-Souza/Python_Image-Classifier-with-SVM
 
+_OBS: O Arquivo 'SVM_Trained_Model.sav' que está nesse repositorio é um modelo treinado para classificar bananas e maçãs.
+
+      #SALVANDO O ARQUIVO DE TREINADO
+      
+      import pickle
+      pickle.dump(classifier, open('SVM_Trained_Model.sav', 'wb'))
+      
+
+      #CARREGANDO O ARQUIVO TREINADO.
+      
+      from sklearn.externals import joblib
+      classifier = joblib.load('SVM_Trained_Model.sav')
+
+- EXPLICAÇÃO ABAIXO.
 
 - Treinamento SVM.
 
